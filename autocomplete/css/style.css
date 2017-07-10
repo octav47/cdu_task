@@ -1,0 +1,28 @@
+label {
+    display: block;
+}
+
+label.label {
+    display: block;
+    color: #333333;
+    text-align: left;
+    font-size: 90%;
+    padding-left: 0;
+}
+
+label.input input {
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 90%;
+    font-weight: normal;
+}
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#map {
+    min-width: 100px;
+    height: 500px;
+}

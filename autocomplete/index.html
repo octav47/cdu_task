@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Autocomplete</title>
+
+    <link href="./css/jquery-ui.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Тестовое задание</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Пункт 1</a></li>
+                    <li><a href="#">Пункт 2</a></li>
+                    <li><a href="#">Пункт 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="form">
+            <div data-id="region-input" class="row">
+                <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label class="label">Регион:</label>
+                    <label class="input">
+                        <input id="region-input" type="text" placeholder="Введите название региона">
+                    </label>
+                </section>
+            </div>
+            <div data-id="district-input" class="row hidden">
+                <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label class="label">Район:</label>
+                    <label class="input">
+                        <input id="district-input" type="text" placeholder="Введите название района">
+                    </label>
+                </section>
+            </div>
+            <div data-id="city-input" class="row hidden">
+                <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label class="label">Город:</label>
+                    <label class="input">
+                        <input id="city-input" type="text" placeholder="Введите название населённого пункта">
+                    </label>
+                </section>
+            </div>
+            <div data-id="map" class="row hidden">
+                <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="map"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/yandex-maps-2.1.min.js"></script>
+<script src="./js/jquery-2.2.4.min.js"></script>
+<script src="./js/jquery-ui-1.12.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+<!--<script src="./js/main.js"></script>-->
+<script src="./js/main.hipster.js"></script>
+</body>
+</html>
