@@ -22,6 +22,13 @@ label.input input {
     margin: 0 auto;
 }
 
+.ui-widget.ui-widget-content {
+    max-height: 500px;
+    margin: 0 0 0 8px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 #map {
     min-width: 100px;
     height: 500px;
